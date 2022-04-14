@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"SquidGame_atlas_1", frames: [[0,674,696,321],[0,0,483,672],[970,0,965,321],[485,0,483,672],[0,1022,1356,73],[970,323,695,342],[970,667,654,353],[1937,0,97,135],[1899,323,145,75],[1667,400,145,75],[1667,323,230,75],[0,1097,1356,73]]},
+		{name:"SquidGame_atlas_1", frames: [[656,1018,696,321],[0,0,483,672],[0,674,965,321],[485,0,483,672],[970,0,483,672],[656,1341,1356,73],[967,674,695,342],[0,997,654,353],[1586,1018,97,135],[1354,1095,145,75],[1501,1155,145,75],[1354,1018,230,75],[0,1416,1356,73]]},
 		{name:"SquidGame_atlas_2", frames: [[0,0,666,1640]]},
 		{name:"SquidGame_atlas_3", frames: [[1446,876,483,672],[0,876,1444,356],[0,1234,1444,356],[0,532,1693,342],[0,0,1671,530]]},
 		{name:"SquidGame_atlas_4", frames: [[0,828,1529,826],[0,0,1691,826]]},
@@ -45,7 +45,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_13copy = function() {
+(lib.CachedBmp_13copy2 = function() {
 	this.initialize(ss["SquidGame_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -87,9 +87,16 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_85 = function() {
+(lib.CachedBmp_191 = function() {
 	this.initialize(ss["SquidGame_atlas_1"]);
 	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_85 = function() {
+	this.initialize(ss["SquidGame_atlas_1"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -101,8 +108,8 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_187 = function() {
-	this.initialize(img.CachedBmp_187);
+(lib.CachedBmp_197 = function() {
+	this.initialize(img.CachedBmp_197);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2495,1473);
 
@@ -133,27 +140,27 @@ p.nominalBounds = new cjs.Rectangle(0,0,2613,1492);
 
 
 
-(lib.CachedBmp_186 = function() {
-	this.initialize(img.CachedBmp_186);
+(lib.CachedBmp_196 = function() {
+	this.initialize(img.CachedBmp_196);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2495,1473);
 
 
-(lib.CachedBmp_155copy2 = function() {
-	this.initialize(img.CachedBmp_155copy2);
+(lib.CachedBmp_155copy = function() {
+	this.initialize(img.CachedBmp_155copy);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2633,1504);
 
 
 (lib.CachedBmp_165 = function() {
 	this.initialize(ss["SquidGame_atlas_1"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_185 = function() {
-	this.initialize(img.CachedBmp_185);
+(lib.CachedBmp_195 = function() {
+	this.initialize(img.CachedBmp_195);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2495,1473);
 
@@ -166,7 +173,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2633,1504);
 
 (lib.CachedBmp_7 = function() {
 	this.initialize(ss["SquidGame_atlas_1"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -180,14 +187,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,2633,1504);
 
 (lib.CachedBmp_5 = function() {
 	this.initialize(ss["SquidGame_atlas_1"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
 	this.initialize(ss["SquidGame_atlas_1"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -214,28 +221,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,2633,1504);
 
 (lib.CachedBmp_170 = function() {
 	this.initialize(ss["SquidGame_atlas_1"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_169 = function() {
 	this.initialize(ss["SquidGame_atlas_1"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_168 = function() {
 	this.initialize(ss["SquidGame_atlas_1"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_167 = function() {
 	this.initialize(ss["SquidGame_atlas_1"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -271,22 +278,22 @@ if (reversed == null) { reversed = false; }
 	this.frame_0 = function() {
 		this.stop();
 	}
-	this.frame_24 = function() {
+	this.frame_47 = function() {
 		whackScore += 1;
-		if (whackScore >= 5) {
+		if (whackScore >= 10) {
 			window.location.reload();
 		}
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(24).call(this.frame_24).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(47).call(this.frame_47).wait(1));
 
 	// Layer_1
 	this.instance = new lib.CachedBmp_87();
 	this.instance.setTransform(-120.7,-168,0.5,0.5);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(24));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(47));
 
 	this._renderFirstFrame();
 
@@ -309,7 +316,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_14();
 	this.instance.setTransform(-168.25,-89,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_13copy();
+	this.instance_1 = new lib.CachedBmp_13copy2();
 	this.instance_1.setTransform(-361.05,-89,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -357,22 +364,22 @@ if (reversed == null) { reversed = false; }
 	this.frame_0 = function() {
 		this.stop();
 	}
-	this.frame_24 = function() {
+	this.frame_47 = function() {
 		whackScore += 1;
-		if (whackScore >= 5) {
+		if (whackScore >= 10) {
 			window.location.reload();
 		}
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(24).call(this.frame_24).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(47).call(this.frame_47).wait(1));
 
 	// Layer_1
 	this.instance = new lib.CachedBmp_86();
 	this.instance.setTransform(-120.7,-168,0.5,0.5);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(24));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(47));
 
 	this._renderFirstFrame();
 
@@ -1209,22 +1216,24 @@ if (reversed == null) { reversed = false; }
 	this.frame_0 = function() {
 		this.stop();
 	}
-	this.frame_24 = function() {
+	this.frame_47 = function() {
 		whackScore += 1;
-		if (whackScore >= 5) {
+		if (whackScore >= 10) {
 			window.location.reload();
 		}
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(24).call(this.frame_24).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(47).call(this.frame_47).wait(1));
 
 	// Layer_1
 	this.instance = new lib.CachedBmp_85();
 	this.instance.setTransform(-120.7,-168,0.5,0.5);
-	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(24));
+	this.instance_1 = new lib.CachedBmp_191();
+	this.instance_1.setTransform(-120.7,-168,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance_1}]},46).wait(1));
 
 	this._renderFirstFrame();
 
@@ -1244,7 +1253,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [1,4,5,718,719,1432,1434,1463];
+	this.actionFrames = [1,4,5,718,719,1795,1797,1826];
 	// timeline functions:
 	this.frame_1 = function() {
 		this.stop()
@@ -1322,7 +1331,7 @@ if (reversed == null) { reversed = false; }
 		
 		function moveForward() {
 			if (puzzleScore == 20) {
-				this.gotoAndStop(1435);
+				this.gotoAndStop(1797);
 			}
 		}
 		
@@ -1352,18 +1361,18 @@ if (reversed == null) { reversed = false; }
 			});
 		}
 	}
-	this.frame_1432 = function() {
+	this.frame_1795 = function() {
 		window.location.reload();
 	}
-	this.frame_1434 = function() {
+	this.frame_1797 = function() {
 		this.stop()
 	}
-	this.frame_1463 = function() {
+	this.frame_1826 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(1).call(this.frame_1).wait(3).call(this.frame_4).wait(1).call(this.frame_5).wait(713).call(this.frame_718).wait(1).call(this.frame_719).wait(713).call(this.frame_1432).wait(2).call(this.frame_1434).wait(29).call(this.frame_1463).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(1).call(this.frame_1).wait(3).call(this.frame_4).wait(1).call(this.frame_5).wait(713).call(this.frame_718).wait(1).call(this.frame_719).wait(1076).call(this.frame_1795).wait(2).call(this.frame_1797).wait(29).call(this.frame_1826).wait(1));
 
 	// Actions
 	this.instance = new lib.CachedBmp_167();
@@ -1378,7 +1387,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_3 = new lib.CachedBmp_168();
 	this.instance_3.setTransform(582.55,523.75,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},718).to({state:[]},1).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]},715).to({state:[]},29).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},718).to({state:[]},1).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]},1078).to({state:[]},29).wait(1));
 
 	// Timer
 	this.instance_4 = new lib.squidtimer();
@@ -1389,8 +1398,8 @@ if (reversed == null) { reversed = false; }
 	this.instance_5.setTransform(14,720.1,1,0.9649,0,0,0,0,373.2);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(5).to({_off:false},0).to({regX:644.8,scaleX:0.0057},712).to({_off:true},1).wait(746));
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(719).to({_off:false},0).to({regY:390.1,scaleY:0.0013},713).to({_off:true},2).wait(30));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(5).to({_off:false},0).to({regX:644.8,scaleX:0.0057},712).to({_off:true},1).wait(1109));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(719).to({_off:false},0).to({regY:390.1,scaleY:0.0013},1076).to({_off:true},2).wait(30));
 
 	// GameAssets
 	this.piece0 = new lib.puzzlepiece20();
@@ -1473,7 +1482,7 @@ if (reversed == null) { reversed = false; }
 	this.piece1.name = "piece1";
 	this.piece1.setTransform(160.15,626.15);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.piece1},{t:this.piece2},{t:this.piece3},{t:this.piece4},{t:this.piece5},{t:this.piece6},{t:this.piece7},{t:this.piece8},{t:this.piece9},{t:this.piece10},{t:this.piece11},{t:this.piece12},{t:this.piece13},{t:this.piece14},{t:this.piece15},{t:this.piece16},{t:this.piece17},{t:this.piece18},{t:this.piece19},{t:this.piece0}]},719).to({state:[]},715).to({state:[{t:this.piece1},{t:this.piece2},{t:this.piece3},{t:this.piece4},{t:this.piece5},{t:this.piece6},{t:this.piece7},{t:this.piece8},{t:this.piece9},{t:this.piece10},{t:this.piece11},{t:this.piece12},{t:this.piece13},{t:this.piece14},{t:this.piece15},{t:this.piece16},{t:this.piece17},{t:this.piece18},{t:this.piece19},{t:this.piece0}]},29).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.piece1},{t:this.piece2},{t:this.piece3},{t:this.piece4},{t:this.piece5},{t:this.piece6},{t:this.piece7},{t:this.piece8},{t:this.piece9},{t:this.piece10},{t:this.piece11},{t:this.piece12},{t:this.piece13},{t:this.piece14},{t:this.piece15},{t:this.piece16},{t:this.piece17},{t:this.piece18},{t:this.piece19},{t:this.piece0}]},719).to({state:[]},1078).to({state:[{t:this.piece1},{t:this.piece2},{t:this.piece3},{t:this.piece4},{t:this.piece5},{t:this.piece6},{t:this.piece7},{t:this.piece8},{t:this.piece9},{t:this.piece10},{t:this.piece11},{t:this.piece12},{t:this.piece13},{t:this.piece14},{t:this.piece15},{t:this.piece16},{t:this.piece17},{t:this.piece18},{t:this.piece19},{t:this.piece0}]},29).wait(1));
 
 	// GameAssets2
 	this.puzzle_next_game = new lib.continue_btn();
@@ -1648,7 +1657,7 @@ if (reversed == null) { reversed = false; }
 	this.slot1.filters = [new cjs.ColorFilter(0, 0, 0, 1, 107, 57, 113, 0)];
 	this.slot1.cache(-88,-74,176,148);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.puzzle_next_game}]},4).to({state:[{t:this.squid5},{t:this.squid0},{t:this.squid9},{t:this.squid4},{t:this.squid6},{t:this.squid1},{t:this.squid2},{t:this.squid3},{t:this.squid8},{t:this.squid10},{t:this.squid11},{t:this.squid7}]},1).to({state:[]},713).to({state:[{t:this.slot1},{t:this.slot2},{t:this.slot3},{t:this.slot4},{t:this.slot5},{t:this.slot6},{t:this.slot7},{t:this.slot8},{t:this.slot9},{t:this.slot10},{t:this.slot11},{t:this.slot12},{t:this.slot13},{t:this.slot14},{t:this.slot15},{t:this.slot16},{t:this.slot17},{t:this.slot18},{t:this.slot19},{t:this.slot0}]},1).to({state:[]},715).to({state:[{t:this.slot1},{t:this.slot2},{t:this.slot3},{t:this.slot4},{t:this.slot5},{t:this.slot6},{t:this.slot7},{t:this.slot8},{t:this.slot9},{t:this.slot10},{t:this.slot11},{t:this.slot12},{t:this.slot13},{t:this.slot14},{t:this.slot15},{t:this.slot16},{t:this.slot17},{t:this.slot18},{t:this.slot19},{t:this.slot0}]},29).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.puzzle_next_game}]},4).to({state:[{t:this.squid5},{t:this.squid0},{t:this.squid9},{t:this.squid4},{t:this.squid6},{t:this.squid1},{t:this.squid2},{t:this.squid3},{t:this.squid8},{t:this.squid10},{t:this.squid11},{t:this.squid7}]},1).to({state:[]},713).to({state:[{t:this.slot1},{t:this.slot2},{t:this.slot3},{t:this.slot4},{t:this.slot5},{t:this.slot6},{t:this.slot7},{t:this.slot8},{t:this.slot9},{t:this.slot10},{t:this.slot11},{t:this.slot12},{t:this.slot13},{t:this.slot14},{t:this.slot15},{t:this.slot16},{t:this.slot17},{t:this.slot18},{t:this.slot19},{t:this.slot0}]},1).to({state:[]},1078).to({state:[{t:this.slot1},{t:this.slot2},{t:this.slot3},{t:this.slot4},{t:this.slot5},{t:this.slot6},{t:this.slot7},{t:this.slot8},{t:this.slot9},{t:this.slot10},{t:this.slot11},{t:this.slot12},{t:this.slot13},{t:this.slot14},{t:this.slot15},{t:this.slot16},{t:this.slot17},{t:this.slot18},{t:this.slot19},{t:this.slot0}]},29).wait(1));
 
 	// Art
 	this.instance_6 = new lib.CachedBmp_7();
@@ -1683,7 +1692,7 @@ if (reversed == null) { reversed = false; }
 	this.puzzle_end_text.name = "puzzle_end_text";
 	this.puzzle_end_text.setTransform(596.55,286.05);
 
-	this.instance_14 = new lib.CachedBmp_185();
+	this.instance_14 = new lib.CachedBmp_195();
 	this.instance_14.setTransform(16.35,13.55,0.5,0.5);
 
 	this.instance_15 = new lib.CachedBmp_155();
@@ -1696,14 +1705,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_16 = new lib.CachedBmp_157();
 	this.instance_16.setTransform(230.85,102.2,0.5,0.5);
 
-	this.instance_17 = new lib.CachedBmp_186();
+	this.instance_17 = new lib.CachedBmp_196();
 	this.instance_17.setTransform(16.35,13.55,0.5,0.5);
 
 	this.start_puzzle_btn = new lib.start_btn();
 	this.start_puzzle_btn.name = "start_puzzle_btn";
 	this.start_puzzle_btn.setTransform(640,660.2,0.5,0.5);
 
-	this.instance_18 = new lib.CachedBmp_155copy2();
+	this.instance_18 = new lib.CachedBmp_155copy();
 	this.instance_18.setTransform(-19.95,-15.95,0.5,0.5);
 
 	this.instance_19 = new lib.CachedBmp_146();
@@ -1715,7 +1724,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_21 = new lib.CachedBmp_175();
 	this.instance_21.setTransform(230.85,87.2,0.5,0.5);
 
-	this.instance_22 = new lib.CachedBmp_187();
+	this.instance_22 = new lib.CachedBmp_197();
 	this.instance_22.setTransform(16.35,13.55,0.5,0.5);
 
 	this.instance_23 = new lib.CachedBmp_173();
@@ -1725,7 +1734,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("#EE95B2").s().p("EgbHAi4QgIgIgEgNQgkh7gYieQgPhmgSi4QhFq0gajWQg7n9hMmFQgYh8AChGQABhsA1hDQBnAeBdA1Ih9gQQgmgFgRAMQgUAQACAxQAGCIAhC+QATBrAoDXQAeCsAZDgQAKBUAeE5QA7JcBIJEQgDADgEAAQgFAAgHgGgAjoYUIj3hCQg+gRgagKQgugTgbgeQgIgIgTgcQgRgYgNgLQgWgTgggGQgcgHggAFQgbAFgfAMQgSAHgmARQgFgEAAgIQgBgHAFgHQAGgHATgHICcg8QgfhCAJhqQAYkyEJlJQCNitCLhiQBTg8A7AOQArALAaAsQAXApACAyQABAvgPA4QgKAkgXBAQgcBKgQAkQgSAogaAxIgwBXQg6BmgjAvQghAtg9A+QiYCbi0B4QAYBRCBAzQBdAlCKAgQCYAjBvADQBVADA/gRQBigaBThQIAqgqQAZgYAVgOQgSA8g8A0QgnAhhPAtQg6AigiAKQgoAMg1ACIgUAAQhlAAiCgegAiZDRQjOCRiRDWQiRDVg6D2QgjCUA7BCQDWhxCmjbQCSi+BmkDQAXg4AJgmQAMg1gGgtQgFgggRgYQgUgbgcgCIgDAAQgaAAglAagATiYHQg2gOgTgpQA6AYBMgHQA3gGBRgZQCLgrBZg1QB0hGA2hiQAeg2gDgvQgDgsghgqQgYgggvglQhahIiJhSIjviLQkmisiHifQg8hGAGg2QAEgbATgcQAOgTAcgaQCJiCC7h8QCRhhDThyQAVgMAMgEQATgIAQABQATAAAQAMQAQAMABASQABASgQAQQgNANgWAIQgRAIgUgEQgUgEABgQQgiAHgmATQgYALgrAbQi7BwhcBBQiWBphkBsQgkAngBAdQgBAWANAXQAKAPAWAXQBaBgA2AvQA9A0BTA2QAzAhBmA8ID3CRQBHAqAlAXQA7AmArAkQB3BigBBmQgBBZhmBhQhhBdh7A7Qh7A7iFATQgYADgWAAQgeAAgZgGgEArhAUQQAdg1gEhNQgBgygVhWQhqnJg5kVQhTmUgqlPQgOhlgKhlQiPAthxA5QhmA0h3BRQhGAwiKBoQAZARARAZQARAaAGAdQgugEgmgfQgmgggNgsQEljqFeiJQA0gVA4gTQg3oyAXo1QAGiAgBg1QgChlgVhNQgEgTgBgKQgBgRAIgKQALgPAXAEQAVAEALARQAKAPABAWQACAOgCAZQgoKUA2KUIAKB3QCTgvCtgmQClglFLg4QFKg4CqgUQEWghDhAIQgYAVgnAIQgZAEgvABQiqAEjTAdQh/ARj6AsIlEA6Qi1AiiOAeQihAjhyAhQA6JFCBI1QBMFHAGAiQApDOAGCfQABAkgQAcQgOAYgTAAQgGAAgGgDgEhD2ABhQBJg0BlgwQA9geB7gzUAq0gSCAsNgOFQAFAbgbAWQgVARgkALUgs4AOKgrYASkQABADAAAHQACAVgOAIQgrAWgyAHQgTADgTAAQgeAAgcgGg");
 	this.shape_1.setTransform(526.65,314.8181);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_12},{t:this.start_btn},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6}]}).to({state:[{t:this.instance_15},{t:this.instance_14},{t:this.puzzle_end_text},{t:this.instance_13}]},4).to({state:[{t:this.shape}]},1).to({state:[{t:this.instance_18},{t:this.start_puzzle_btn},{t:this.instance_17},{t:this.instance_16}]},713).to({state:[{t:this.instance_20},{t:this.instance_19}]},1).to({state:[{t:this.instance_23},{t:this.instance_22},{t:this.instance_21}]},715).to({state:[{t:this.shape_1}]},29).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_12},{t:this.start_btn},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6}]}).to({state:[{t:this.instance_15},{t:this.instance_14},{t:this.puzzle_end_text},{t:this.instance_13}]},4).to({state:[{t:this.shape}]},1).to({state:[{t:this.instance_18},{t:this.start_puzzle_btn},{t:this.instance_17},{t:this.instance_16}]},713).to({state:[{t:this.instance_20},{t:this.instance_19}]},1).to({state:[{t:this.instance_23},{t:this.instance_22},{t:this.instance_21}]},1078).to({state:[{t:this.shape_1}]},29).wait(1));
 
 	this._renderFirstFrame();
 
@@ -1740,20 +1749,20 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_187.png?1649831814281", id:"CachedBmp_187"},
-		{src:"images/CachedBmp_173.png?1649831814281", id:"CachedBmp_173"},
-		{src:"images/CachedBmp_145.png?1649831814281", id:"CachedBmp_145"},
-		{src:"images/CachedBmp_186.png?1649831814281", id:"CachedBmp_186"},
-		{src:"images/CachedBmp_155copy2.png?1649831814281", id:"CachedBmp_155copy2"},
-		{src:"images/CachedBmp_185.png?1649831814281", id:"CachedBmp_185"},
-		{src:"images/CachedBmp_155.png?1649831814281", id:"CachedBmp_155"},
-		{src:"images/CachedBmp_1.png?1649831814281", id:"CachedBmp_1"},
-		{src:"images/SquidGame_atlas_1.png?1649831814147", id:"SquidGame_atlas_1"},
-		{src:"images/SquidGame_atlas_2.png?1649831814147", id:"SquidGame_atlas_2"},
-		{src:"images/SquidGame_atlas_3.png?1649831814147", id:"SquidGame_atlas_3"},
-		{src:"images/SquidGame_atlas_4.png?1649831814147", id:"SquidGame_atlas_4"},
-		{src:"images/SquidGame_atlas_5.png?1649831814147", id:"SquidGame_atlas_5"},
-		{src:"images/SquidGame_atlas_6.png?1649831814147", id:"SquidGame_atlas_6"}
+		{src:"images/CachedBmp_197.png?1649909508810", id:"CachedBmp_197"},
+		{src:"images/CachedBmp_173.png?1649909508810", id:"CachedBmp_173"},
+		{src:"images/CachedBmp_145.png?1649909508810", id:"CachedBmp_145"},
+		{src:"images/CachedBmp_196.png?1649909508810", id:"CachedBmp_196"},
+		{src:"images/CachedBmp_155copy.png?1649909508810", id:"CachedBmp_155copy"},
+		{src:"images/CachedBmp_195.png?1649909508810", id:"CachedBmp_195"},
+		{src:"images/CachedBmp_155.png?1649909508810", id:"CachedBmp_155"},
+		{src:"images/CachedBmp_1.png?1649909508810", id:"CachedBmp_1"},
+		{src:"images/SquidGame_atlas_1.png?1649909508662", id:"SquidGame_atlas_1"},
+		{src:"images/SquidGame_atlas_2.png?1649909508662", id:"SquidGame_atlas_2"},
+		{src:"images/SquidGame_atlas_3.png?1649909508663", id:"SquidGame_atlas_3"},
+		{src:"images/SquidGame_atlas_4.png?1649909508663", id:"SquidGame_atlas_4"},
+		{src:"images/SquidGame_atlas_5.png?1649909508663", id:"SquidGame_atlas_5"},
+		{src:"images/SquidGame_atlas_6.png?1649909508663", id:"SquidGame_atlas_6"}
 	],
 	preloads: []
 };

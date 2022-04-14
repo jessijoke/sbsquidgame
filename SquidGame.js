@@ -45,7 +45,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_13copy2 = function() {
+(lib.CachedBmp_13copy = function() {
 	this.initialize(ss["SquidGame_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -108,8 +108,8 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_197 = function() {
-	this.initialize(img.CachedBmp_197);
+(lib.CachedBmp_200 = function() {
+	this.initialize(img.CachedBmp_200);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2495,1473);
 
@@ -140,14 +140,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,2613,1492);
 
 
 
-(lib.CachedBmp_196 = function() {
-	this.initialize(img.CachedBmp_196);
+(lib.CachedBmp_199 = function() {
+	this.initialize(img.CachedBmp_199);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2495,1473);
 
 
-(lib.CachedBmp_155copy = function() {
-	this.initialize(img.CachedBmp_155copy);
+(lib.CachedBmp_155copy2 = function() {
+	this.initialize(img.CachedBmp_155copy2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2633,1504);
 
@@ -159,8 +159,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,2633,1504);
 
 
 
-(lib.CachedBmp_195 = function() {
-	this.initialize(img.CachedBmp_195);
+(lib.CachedBmp_198 = function() {
+	this.initialize(img.CachedBmp_198);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2495,1473);
 
@@ -316,7 +316,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_14();
 	this.instance.setTransform(-168.25,-89,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_13copy2();
+	this.instance_1 = new lib.CachedBmp_13copy();
 	this.instance_1.setTransform(-361.05,-89,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -1692,7 +1692,7 @@ if (reversed == null) { reversed = false; }
 	this.puzzle_end_text.name = "puzzle_end_text";
 	this.puzzle_end_text.setTransform(596.55,286.05);
 
-	this.instance_14 = new lib.CachedBmp_195();
+	this.instance_14 = new lib.CachedBmp_198();
 	this.instance_14.setTransform(16.35,13.55,0.5,0.5);
 
 	this.instance_15 = new lib.CachedBmp_155();
@@ -1705,14 +1705,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_16 = new lib.CachedBmp_157();
 	this.instance_16.setTransform(230.85,102.2,0.5,0.5);
 
-	this.instance_17 = new lib.CachedBmp_196();
+	this.instance_17 = new lib.CachedBmp_199();
 	this.instance_17.setTransform(16.35,13.55,0.5,0.5);
 
 	this.start_puzzle_btn = new lib.start_btn();
 	this.start_puzzle_btn.name = "start_puzzle_btn";
 	this.start_puzzle_btn.setTransform(640,660.2,0.5,0.5);
 
-	this.instance_18 = new lib.CachedBmp_155copy();
+	this.instance_18 = new lib.CachedBmp_155copy2();
 	this.instance_18.setTransform(-19.95,-15.95,0.5,0.5);
 
 	this.instance_19 = new lib.CachedBmp_146();
@@ -1724,7 +1724,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_21 = new lib.CachedBmp_175();
 	this.instance_21.setTransform(230.85,87.2,0.5,0.5);
 
-	this.instance_22 = new lib.CachedBmp_197();
+	this.instance_22 = new lib.CachedBmp_200();
 	this.instance_22.setTransform(16.35,13.55,0.5,0.5);
 
 	this.instance_23 = new lib.CachedBmp_173();
@@ -1749,20 +1749,20 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_197.png?1649909508810", id:"CachedBmp_197"},
-		{src:"images/CachedBmp_173.png?1649909508810", id:"CachedBmp_173"},
-		{src:"images/CachedBmp_145.png?1649909508810", id:"CachedBmp_145"},
-		{src:"images/CachedBmp_196.png?1649909508810", id:"CachedBmp_196"},
-		{src:"images/CachedBmp_155copy.png?1649909508810", id:"CachedBmp_155copy"},
-		{src:"images/CachedBmp_195.png?1649909508810", id:"CachedBmp_195"},
-		{src:"images/CachedBmp_155.png?1649909508810", id:"CachedBmp_155"},
-		{src:"images/CachedBmp_1.png?1649909508810", id:"CachedBmp_1"},
-		{src:"images/SquidGame_atlas_1.png?1649909508662", id:"SquidGame_atlas_1"},
-		{src:"images/SquidGame_atlas_2.png?1649909508662", id:"SquidGame_atlas_2"},
-		{src:"images/SquidGame_atlas_3.png?1649909508663", id:"SquidGame_atlas_3"},
-		{src:"images/SquidGame_atlas_4.png?1649909508663", id:"SquidGame_atlas_4"},
-		{src:"images/SquidGame_atlas_5.png?1649909508663", id:"SquidGame_atlas_5"},
-		{src:"images/SquidGame_atlas_6.png?1649909508663", id:"SquidGame_atlas_6"}
+		{src:"images/CachedBmp_200.png?1649909840083", id:"CachedBmp_200"},
+		{src:"images/CachedBmp_173.png?1649909840083", id:"CachedBmp_173"},
+		{src:"images/CachedBmp_145.png?1649909840083", id:"CachedBmp_145"},
+		{src:"images/CachedBmp_199.png?1649909840083", id:"CachedBmp_199"},
+		{src:"images/CachedBmp_155copy2.png?1649909840083", id:"CachedBmp_155copy2"},
+		{src:"images/CachedBmp_198.png?1649909840083", id:"CachedBmp_198"},
+		{src:"images/CachedBmp_155.png?1649909840083", id:"CachedBmp_155"},
+		{src:"images/CachedBmp_1.png?1649909840083", id:"CachedBmp_1"},
+		{src:"images/SquidGame_atlas_1.png?1649909839958", id:"SquidGame_atlas_1"},
+		{src:"images/SquidGame_atlas_2.png?1649909839958", id:"SquidGame_atlas_2"},
+		{src:"images/SquidGame_atlas_3.png?1649909839958", id:"SquidGame_atlas_3"},
+		{src:"images/SquidGame_atlas_4.png?1649909839958", id:"SquidGame_atlas_4"},
+		{src:"images/SquidGame_atlas_5.png?1649909839958", id:"SquidGame_atlas_5"},
+		{src:"images/SquidGame_atlas_6.png?1649909839958", id:"SquidGame_atlas_6"}
 	],
 	preloads: []
 };
